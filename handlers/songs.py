@@ -19,7 +19,7 @@ from youtube_dl.utils import (
     XAttrMetadataError,
 )
 
-@Client.on_message(filters.command("song") & ~filters.edited)
+@Client.on_message(filters.command("song") 
 async def song(client, message):
     cap = "@TheRiZoeL"
     url = message.text.split(None, 1)[1]
