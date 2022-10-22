@@ -87,7 +87,6 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 @Client.on_message(command("play") 
                    & filters.group
-                   & ~filters.edited 
                    & ~filters.forwarded
                    & ~filters.via_bot)
 async def play(_, message: Message):
@@ -100,7 +99,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "RiZoeL"
+        user.first_name = "Dark"
     usar = user
     wew = usar.id
     try:
