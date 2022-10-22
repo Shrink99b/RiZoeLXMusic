@@ -16,11 +16,9 @@ from youtube_dl.utils import (
     MaxDownloadsReached,
     PostProcessingError,
     UnavailableVideoError,
-    XAttrMetadataError,
+    
 )
 
-@Client.on_message(filters.command("song") 
-async def song(client, message):
     cap = "@TheRiZoeL"
     url = message.text.split(None, 1)[1]
     rkp = await message.reply("Processing...")
