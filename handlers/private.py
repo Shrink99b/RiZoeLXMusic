@@ -12,16 +12,16 @@ async def start(_, message: Message):
 
 I'm Bot For group's voice call. I can Play Music On groups voice Calls.**
 
-__Powered by @RiZoeLX__
+__Powered by @dark_vs_soldier
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "• Source Code •", url="https://github.com/MrRizoel/RiZoeLXMusic")
+                        "• Source Code •", url="https://github.com/Mppijj")
                   ],[ 
                     InlineKeyboardButton(
-                        "• Support Group •", url="https://t.me/DNHxHELL"
+                        "• Support Group •", url="https://t.me/hjhvvl"
                     )]
             ]
         ),
@@ -35,7 +35,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "• Channel •", url="https://t.me/RiZoeLX")
+                        "• Channel •", url="https://t.me/hjhvvl")
                 ]
             ]
         )
